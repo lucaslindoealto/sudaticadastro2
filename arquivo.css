@@ -1,0 +1,111 @@
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o cabeçalho */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilizando o formulário */
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando os rótulos dos campos de entrada */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Estilizando os campos de entrada de texto */
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilizando a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilizando o botão de envio */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilizando os títulos das seções */
+h2 {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Estilizando as células da tabela de Alvos (mm) */
+input[type="text"][value="0"] {
+    color: green;
+}
+
+/* Estilizando os campos com valor "X" */
+input[type="text"][value="X"] {
+    color: red;
+    font-weight: bold;
+}
+
+/* Estilizando o rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilizando os campos com IDs específicos */
+#Cliente, #Produto, #Carimbo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#FATURA {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Estilizando a tabela de FORMAÇÕES DA CONTRA CAPA */
+h2:nth-of-type(4) + table {
+    margin-top: 20px;
+}
+
+/* Adicione mais estilos conforme necessário */
